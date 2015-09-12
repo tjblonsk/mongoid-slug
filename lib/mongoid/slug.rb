@@ -266,7 +266,7 @@ module Mongoid
     end
 
     def self.mongoid3?
-      ::Mongoid.const_defined? :Observer
+      false
     end
 
     private
